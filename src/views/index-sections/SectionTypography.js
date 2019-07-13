@@ -157,7 +157,7 @@ function SectionTypography() {
                     />
                   </div></div>
                 <CardBody>
-                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardText>Another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
                   <CardLink href="#" className="text-info">See Project</CardLink>
                   <CardLink href="#" className="text-info">See Author</CardLink>
                 </CardBody>
@@ -165,13 +165,36 @@ function SectionTypography() {
 
               <Col md="3" sm="6"> <Card>
                 <CardBody>
-                  <h6>WheelCare2</h6>
+                  <h6>The ADA project</h6>
+                  <p className="text-info">Jenny Kwon</p>
+                </CardBody>
+                  <a href="#"> <img
+                    alt="..."
+                    className="img-rounded img-responsive"
+                    src={require("assets/img/WheelCare2/ada.jpg")}
+                  /> </a>
+                  <div className="img-details"> <div className="author">
+                    <img
+                      alt="..."
+                      className="img-circle img-no-padding img-responsive"
+                      src={require("assets/img/WheelCare2/jenny.jpg")}
+                    />
+                  </div></div>
+                <CardBody>
+                  <CardText>A photographic celebration of the profound changes made possible by the Americans with Disabilities Act.</CardText>
+                  <CardLink href="#" className="text-info">See Project</CardLink>
+                  <CardLink href="#" className="text-info">See Author</CardLink>
+                </CardBody>
+              </Card> </Col>
+              <Col md="3" sm="6"> <Card>
+                <CardBody>
+                  <h6>Film project</h6>
                   <p className="text-info">Jack Jiang</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
                     className="img-rounded img-responsive"
-                    src={require("assets/img/WheelCare2/preview.jpg")}
+                    src={require("assets/img/WheelCare2/singer.jpg")}
                   /> </a>
                   <div className="img-details"> <div className="author">
                     <img
@@ -181,55 +204,56 @@ function SectionTypography() {
                     />
                   </div></div>
                 <CardBody>
-                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardText>A dynamic company of actors with a physical disability paired with able bodied actors needs your help to make our short film!</CardText>
                   <CardLink href="#" className="text-info">See Project</CardLink>
                   <CardLink href="#" className="text-info">See Author</CardLink>
                 </CardBody>
               </Card> </Col>
-
               <Col md="3" sm="6"> <Card>
                 <CardBody>
-                  <h6>WheelCare2</h6>
-                  <p className="text-info">Jack Jiang</p>
+                  <h6>Ski Glove for Disabled</h6>
+                  <p className="text-info">Jenny Kwon</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
                     className="img-rounded img-responsive"
-                    src={require("assets/img/WheelCare2/preview.jpg")}
+                    src={require("assets/img/WheelCare2/ski.jpg")}
                   /> </a>
                   <div className="img-details"> <div className="author">
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/WheelCare2/face.jpg")}
+                      src={require("assets/img/WheelCare2/jenny.jpg")}
                     />
                   </div></div>
                 <CardBody>
-                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardText>We invented an adaptive ski glove that allows disabled skiers with limited hand function to hold their outriggers.</CardText>
                   <CardLink href="#" className="text-info">See Project</CardLink>
                   <CardLink href="#" className="text-info">See Author</CardLink>
                 </CardBody>
               </Card> </Col>
               
+            
+
               <Col md="3" sm="6"> <Card>
                 <CardBody>
-                  <h6>WheelCare2</h6>
-                  <p className="text-info">Jack Jiang</p>
+                  <h6>SUPPORTING DISABILITIES</h6>
+                  <p className="text-info">Jenny Kwon</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
                     className="img-rounded img-responsive"
-                    src={require("assets/img/WheelCare2/preview.jpg")}
+                    src={require("assets/img/WheelCare2/good.jpg")}
                   /> </a>
                   <div className="img-details"> <div className="author">
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/WheelCare2/face.jpg")}
+                      src={require("assets/img/WheelCare2/jenny.jpg")}
                     />
                   </div></div>
                 <CardBody>
-                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardText>I'm trying to improve the lives of people with disabilities by developing more accessible digital products. Thank You to everyone that supported my kickstarter.</CardText>
                   <CardLink href="#" className="text-info">See Project</CardLink>
                   <CardLink href="#" className="text-info">See Author</CardLink>
                 </CardBody>
@@ -237,13 +261,13 @@ function SectionTypography() {
 
               <Col md="3" sm="6"> <Card>
                 <CardBody>
-                  <h6>WheelCare2</h6>
+                  <h6>Mullen’s Apple Sauce</h6>
                   <p className="text-info">Jack Jiang</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
                     className="img-rounded img-responsive"
-                    src={require("assets/img/WheelCare2/preview.jpg")}
+                    src={require("assets/img/WheelCare2/jam.jpg")}
                   /> </a>
                   <div className="img-details"> <div className="author">
                     <img
@@ -253,31 +277,7 @@ function SectionTypography() {
                     />
                   </div></div>
                 <CardBody>
-                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
-                  <CardLink href="#" className="text-info">See Project</CardLink>
-                  <CardLink href="#" className="text-info">See Author</CardLink>
-                </CardBody>
-              </Card> </Col>
-
-              <Col md="3" sm="6"> <Card>
-                <CardBody>
-                  <h6>WheelCare2</h6>
-                  <p className="text-info">Jack Jiang</p>
-                </CardBody>
-                  <a href="#"> <img
-                    alt="..."
-                    className="img-rounded img-responsive"
-                    src={require("assets/img/WheelCare2/preview.jpg")}
-                  /> </a>
-                  <div className="img-details"> <div className="author">
-                    <img
-                      alt="..."
-                      className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/WheelCare2/face.jpg")}
-                    />
-                  </div></div>
-                <CardBody>
-                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardText>Chicago’s Finest Craft Apple Sauce, Brought to You by Disabled Chicago Police Officer, Jim Mullen. “Like Apple Pie Without the Crust!”</CardText>
                   <CardLink href="#" className="text-info">See Project</CardLink>
                   <CardLink href="#" className="text-info">See Author</CardLink>
                 </CardBody>
