@@ -17,7 +17,7 @@
 
 */
 import React from "react";
-
+import { Link } from 'react-router-dom';
 // reactstrap components
 import { Container, Row, Col , Card, CardImg, CardText, CardBody, CardLink,
   CardTitle, CardSubtitle } from "reactstrap";
@@ -142,13 +142,13 @@ function SectionTypography() {
               <Col md="3" sm="6"> <Card>
                 <CardBody>
                   <h6>WheelCare2</h6>
-                  <p className="text-info">Jack</p>
+                  <p className="text-info">Jack Jiang</p>
                 </CardBody>
-                  <a href="./projects/WheelCare2/"> <img
+                  <Link to="/projects/WheelCare2"> <img
                     alt="..."
                     className="img-rounded img-responsive"
                     src={require("assets/img/WheelCare2/preview.jpg")}
-                  /> </a>
+                  /> </Link>
                   <div className="img-details"> <div className="author">
                     <img
                       alt="..."

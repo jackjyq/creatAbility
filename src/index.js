@@ -18,7 +18,7 @@
 */
 import React from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter, Route, Redirect, Switch } from "react-router-dom";
+import { BrowserRouter, Route, Redirect, Switch, HashRouter } from "react-router-dom";
 
 // styles
 import "assets/css/bootstrap.min.css";
@@ -33,27 +33,11 @@ import RegisterPage from "views/examples/RegisterPage.js";
 // others
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Switch>
-      <Route path="/index" render={props => <Index {...props} />} />
-      <Route
-        path="/nucleo-icons"
-        render={props => <NucleoIcons {...props} />}
-      />
-      <Route
-        path="/projects/WheelCare2"
-        render={props => <WheelCare2 {...props} />}
-      />
-      <Route
-        path="/create"
-        render={props => <CreatePage {...props} />}
-      />
-      <Route
-        path="/register-page"
-        render={props => <RegisterPage {...props} />}
-      />
-      <Redirect to="/index" />
-    </Switch>
-  </BrowserRouter>,
+    <HashRouter>
+        <Route exact path="/" component={ Index } />
+        <Route exact path="/index" component={ Index } />
+        <Route exact path="/create" component={ CreatePage } />
+        <Route exact path="/projects/WheelCare2" component={ WheelCare2 } />
+    </HashRouter>,
   document.getElementById("root")
 );

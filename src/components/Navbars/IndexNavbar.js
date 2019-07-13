@@ -17,6 +17,7 @@
 
 */
 import React from "react";
+import { Link } from 'react-router-dom';
 // nodejs library that concatenates strings
 import classnames from "classnames";
 // reactstrap components
@@ -67,11 +68,12 @@ function IndexNavbar() {
         <div className="navbar-translate">
           <NavbarBrand
             data-placement="bottom"
-            href="/index"
             target="_blank"
             title="created by teamA"
           >
+          <Link to="/">
             Home
+          </Link>
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -147,10 +149,11 @@ function IndexNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="./create"
                 target="_blank"
               >
-                create a project
+                <Link to="/create">
+                  create a project
+                </Link>
               </Button>
             </NavItem>
           </Nav>
