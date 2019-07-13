@@ -19,7 +19,8 @@
 import React from "react";
 
 // reactstrap components
-import { Container, Row, Col } from "reactstrap";
+import { Container, Row, Col , Card, CardImg, CardText, CardBody, CardLink,
+  CardTitle, CardSubtitle } from "reactstrap";
 
 // core components
 
@@ -28,9 +29,9 @@ function SectionTypography() {
     <>
       <Container className="tim-container">
         <div className="title">
-          <h3>Typography</h3>
+          <h3>Explore Projects</h3>
         </div>
-        <div id="typography">
+        {/* <div id="typography">
           <Row>
             <div className="typography-line">
               <h1>
@@ -133,33 +134,155 @@ function SectionTypography() {
               </h2>
             </div>
           </Row>
-        </div>
+        </div> */}
         <br />
         <div id="images">
           <Container>
-            <div className="title">
-              <h3>Images</h3>
-            </div>
             <Row>
-              <Col md="3" sm="6">
-                <h4 className="images-title">Rounded Image</h4>
-                <img
-                  alt="..."
-                  className="img-rounded img-responsive"
-                  src={require("assets/img/uriel-soberanes.jpg")}
-                />
-                <div className="img-details">
-                  <div className="author">
+              <Col md="3" sm="6"> <Card>
+                <CardBody>
+                  <h6>WheelCare2</h6>
+                  <p className="text-info">Jack Jiang</p>
+                </CardBody>
+                  <a href="./projects/WheelCare2/"> <img
+                    alt="..."
+                    className="img-rounded img-responsive"
+                    src={require("assets/img/WheelCare2/preview.jpg")}
+                  /> </a>
+                  <div className="img-details"> <div className="author">
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/faces/joe-gardner-2.jpg")}
+                      src={require("assets/img/WheelCare2/face.jpg")}
                     />
-                  </div>
-                  <p>Sonia Green</p>
-                </div>
-              </Col>
-              <Col className="mr-auto ml-auto" md="2" sm="3">
+                  </div></div>
+                <CardBody>
+                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardLink href="#" className="text-info">See Project</CardLink>
+                  <CardLink href="#" className="text-info">See Author</CardLink>
+                </CardBody>
+              </Card> </Col>
+
+              <Col md="3" sm="6"> <Card>
+                <CardBody>
+                  <h6>WheelCare2</h6>
+                  <p className="text-info">Jack Jiang</p>
+                </CardBody>
+                  <a href="#"> <img
+                    alt="..."
+                    className="img-rounded img-responsive"
+                    src={require("assets/img/WheelCare2/preview.jpg")}
+                  /> </a>
+                  <div className="img-details"> <div className="author">
+                    <img
+                      alt="..."
+                      className="img-circle img-no-padding img-responsive"
+                      src={require("assets/img/WheelCare2/face.jpg")}
+                    />
+                  </div></div>
+                <CardBody>
+                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardLink href="#" className="text-info">See Project</CardLink>
+                  <CardLink href="#" className="text-info">See Author</CardLink>
+                </CardBody>
+              </Card> </Col>
+
+              <Col md="3" sm="6"> <Card>
+                <CardBody>
+                  <h6>WheelCare2</h6>
+                  <p className="text-info">Jack Jiang</p>
+                </CardBody>
+                  <a href="#"> <img
+                    alt="..."
+                    className="img-rounded img-responsive"
+                    src={require("assets/img/WheelCare2/preview.jpg")}
+                  /> </a>
+                  <div className="img-details"> <div className="author">
+                    <img
+                      alt="..."
+                      className="img-circle img-no-padding img-responsive"
+                      src={require("assets/img/WheelCare2/face.jpg")}
+                    />
+                  </div></div>
+                <CardBody>
+                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardLink href="#" className="text-info">See Project</CardLink>
+                  <CardLink href="#" className="text-info">See Author</CardLink>
+                </CardBody>
+              </Card> </Col>
+              
+              <Col md="3" sm="6"> <Card>
+                <CardBody>
+                  <h6>WheelCare2</h6>
+                  <p className="text-info">Jack Jiang</p>
+                </CardBody>
+                  <a href="#"> <img
+                    alt="..."
+                    className="img-rounded img-responsive"
+                    src={require("assets/img/WheelCare2/preview.jpg")}
+                  /> </a>
+                  <div className="img-details"> <div className="author">
+                    <img
+                      alt="..."
+                      className="img-circle img-no-padding img-responsive"
+                      src={require("assets/img/WheelCare2/face.jpg")}
+                    />
+                  </div></div>
+                <CardBody>
+                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardLink href="#" className="text-info">See Project</CardLink>
+                  <CardLink href="#" className="text-info">See Author</CardLink>
+                </CardBody>
+              </Card> </Col>
+
+              <Col md="3" sm="6"> <Card>
+                <CardBody>
+                  <h6>WheelCare2</h6>
+                  <p className="text-info">Jack Jiang</p>
+                </CardBody>
+                  <a href="#"> <img
+                    alt="..."
+                    className="img-rounded img-responsive"
+                    src={require("assets/img/WheelCare2/preview.jpg")}
+                  /> </a>
+                  <div className="img-details"> <div className="author">
+                    <img
+                      alt="..."
+                      className="img-circle img-no-padding img-responsive"
+                      src={require("assets/img/WheelCare2/face.jpg")}
+                    />
+                  </div></div>
+                <CardBody>
+                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardLink href="#" className="text-info">See Project</CardLink>
+                  <CardLink href="#" className="text-info">See Author</CardLink>
+                </CardBody>
+              </Card> </Col>
+
+              <Col md="3" sm="6"> <Card>
+                <CardBody>
+                  <h6>WheelCare2</h6>
+                  <p className="text-info">Jack Jiang</p>
+                </CardBody>
+                  <a href="#"> <img
+                    alt="..."
+                    className="img-rounded img-responsive"
+                    src={require("assets/img/WheelCare2/preview.jpg")}
+                  /> </a>
+                  <div className="img-details"> <div className="author">
+                    <img
+                      alt="..."
+                      className="img-circle img-no-padding img-responsive"
+                      src={require("assets/img/WheelCare2/face.jpg")}
+                    />
+                  </div></div>
+                <CardBody>
+                  <CardText>another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</CardText>
+                  <CardLink href="#" className="text-info">See Project</CardLink>
+                  <CardLink href="#" className="text-info">See Author</CardLink>
+                </CardBody>
+              </Card> </Col>
+              {/* <Col className="mr-auto ml-auto" md="2" sm="3">
                 <h4 className="images-title">Circle Image</h4>
                 <img
                   alt="..."
@@ -167,8 +290,8 @@ function SectionTypography() {
                   src={require("assets/img/faces/kaci-baum-2.jpg")}
                 />
                 <p className="text-center">Brigitte Bardot</p>
-              </Col>
-              <Col className="mr-auto" md="2" sm="3">
+              </Col> */}
+              {/* <Col className="mr-auto" md="2" sm="3">
                 <h4 className="images-title">Thumbnail</h4>
                 <img
                   alt="..."
@@ -176,7 +299,7 @@ function SectionTypography() {
                   src={require("assets/img/faces/erik-lucatero-2.jpg")}
                 />
                 <p className="text-center">John Keynes</p>
-              </Col>
+              </Col> */}
             </Row>
           </Container>
         </div>

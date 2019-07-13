@@ -77,7 +77,7 @@ function ExamplesNavbar() {
             title="Coded by Creative Tim"
             tag={Link}
           >
-            Paper Kit 2
+            Home
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -99,7 +99,7 @@ function ExamplesNavbar() {
           <Nav navbar>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                <i className="nc-icon nc-layout-11" /> Components
+                <i className="nc-icon nc-layout-11" /> Report abuse
               </NavLink>
             </NavItem>
             <NavItem>
@@ -107,10 +107,10 @@ function ExamplesNavbar() {
                 href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
                 target="_blank"
               >
-                <i className="nc-icon nc-book-bookmark" /> Documentation
+                <i className="nc-icon nc-book-bookmark" /> Create a Project
               </NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="https://twitter.com/CreativeTim?ref=creativetim"
@@ -153,7 +153,7 @@ function ExamplesNavbar() {
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
-            </NavItem>
+            </NavItem> */}
           </Nav>
         </Collapse>
       </Container>

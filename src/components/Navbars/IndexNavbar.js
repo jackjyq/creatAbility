@@ -69,9 +69,9 @@ function IndexNavbar() {
             data-placement="bottom"
             href="/index"
             target="_blank"
-            title="Coded by Creative Tim"
+            title="created by teamA"
           >
-            Paper Kit React
+            Home
           </NavbarBrand>
           <button
             aria-expanded={navbarCollapse}
@@ -91,7 +91,7 @@ function IndexNavbar() {
           isOpen={navbarCollapse}
         >
           <Nav navbar>
-            <NavItem>
+            {/* <NavItem>
               <NavLink
                 data-placement="bottom"
                 href="https://twitter.com/CreativeTim?ref=creativetim"
@@ -134,15 +134,15 @@ function IndexNavbar() {
                 <i className="fa fa-github" />
                 <p className="d-lg-none">GitHub</p>
               </NavLink>
-            </NavItem>
-            <NavItem>
+            </NavItem> */}
+            {/* <NavItem>
               <NavLink
                 href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-index-navbar"
                 target="_blank"
               >
                 <i className="nc-icon nc-book-bookmark" /> Documentation
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             <NavItem>
               <Button
                 className="btn-round"
@@ -151,7 +151,7 @@ function IndexNavbar() {
                 target="_blank"
                 disabled
               >
-                Upgrade to Pro
+                create a project
               </Button>
             </NavItem>
           </Nav>
