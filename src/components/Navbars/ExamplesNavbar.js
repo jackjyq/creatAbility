@@ -99,17 +99,17 @@ function ExamplesNavbar() {
           <Nav navbar>
             <NavItem>
               <NavLink to="/index" tag={Link}>
-                <i className="nc-icon nc-layout-11" /> Report abuse
+                <i className="nc-icon nc-layout-11" /> Report
               </NavLink>
             </NavItem>
-            <NavItem>
+            {/* <NavItem>
               <NavLink
                 href="https://demos.creative-tim.com/paper-kit-react/#/documentation?ref=pkr-examples-navbar"
                 target="_blank"
               >
                 <i className="nc-icon nc-book-bookmark" /> Create a Project
               </NavLink>
-            </NavItem>
+            </NavItem> */}
             {/* <NavItem>
               <NavLink
                 data-placement="bottom"

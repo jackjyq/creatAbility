@@ -28,7 +28,7 @@ import "assets/demo/demo.css";
 import Index from "views/Index.js";
 import NucleoIcons from "views/NucleoIcons.js";
 import WheelCare2 from "views/examples/Projects/WheelCare2.js";
-import ProfilePage from "views/examples/ProfilePage.js";
+import CreatePage from "views/examples/CreatePage.js";
 import RegisterPage from "views/examples/RegisterPage.js";
 // others
 
@@ -45,8 +45,8 @@ ReactDOM.render(
         render={props => <WheelCare2 {...props} />}
       />
       <Route
-        path="/profile-page"
-        render={props => <ProfilePage {...props} />}
+        path="/create"
+        render={props => <CreatePage {...props} />}
       />
       <Route
         path="/register-page"
