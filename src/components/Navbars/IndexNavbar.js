@@ -147,9 +147,8 @@ function IndexNavbar() {
               <Button
                 className="btn-round"
                 color="danger"
-                href="#pablo"
+                href="./create"
                 target="_blank"
-                disabled
               >
                 create a project
               </Button>
