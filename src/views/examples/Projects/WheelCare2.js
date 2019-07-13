@@ -57,13 +57,9 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="title">Let's talk product</h2>
+                <h2 className="title">Overview of the Project</h2>
                 <h5 className="description">
-                  This is the paragraph where you can write more details about
-                  your product. Keep you user engaged by providing meaningful
-                  information. Remember that by this time, the user is curious,
-                  otherwise he wouldn't scroll to get here. Add a button if you
-                  want the user to see more.
+                  Imagine your parents or grandparents suffering from mobility difficulties, you may immediately come up with 2 things: (i) Wheelchair (ii) Carer. To facilitate this situation, we have thought of a fully caring solution to enhance the user experience from hardware to software meanwhile you, as a family member, will also feel comfy to buy for your beloved ones.
                 </h5>
                 <br />
                 <Button
@@ -85,10 +81,9 @@ function LandingPage() {
                     <i className="nc-icon nc-album-2" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Beautiful Gallery</h4>
+                    <h4 className="info-title">Lightweight Material</h4>
                     <p className="description">
-                      Spend your time generating new ideas. You don't have to
-                      think of implementing.
+                      The wheelchair is made from durable Lightweight Aircraft Quality Aluminium that allows it to hold up a weight of 300 lbs (~136 kg) yet it is 54 lbs only (~24 kg, with battery)
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -102,10 +97,9 @@ function LandingPage() {
                     <i className="nc-icon nc-bulb-63" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">New Ideas</h4>
+                    <h4 className="info-title">embedded Power</h4>
                     <p>
-                      Larger, yet dramatically thinner. More powerful, but
-                      remarkably power efficient.
+                      A Power Wheelchair embedded with an All-In-One Smart tracking system (BLE & GPS Tracking System)
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -119,10 +113,9 @@ function LandingPage() {
                     <i className="nc-icon nc-chart-bar-32" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Statistics</h4>
+                    <h4 className="info-title">Bluetooth technology</h4>
                     <p>
-                      Choose from a veriety of many colors resembling sugar
-                      paper pastels.
+                      Using Bluetooth technology, the embedded smart tracking system (i) will alert when the carer is out of the preset distance (between the carer and the elder)
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -152,7 +145,7 @@ function LandingPage() {
         </div>
         <div className="section section-dark text-center">
           <Container>
-            <h2 className="title">Let's talk about us</h2>
+            <h2 className="title">Ways to Contribute</h2>
             <Row>
               <Col md="4">
                 <Card className="card-profile card-plain">
@@ -160,15 +153,15 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/clem-onojeghuo-3.jpg")}
+                        src={require("assets/img/like.png")}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Henry Ford</CardTitle>
-                        <h6 className="card-category">Product Manager</h6>
+                        <CardTitle tag="h4">Show Your Interest</CardTitle>
+                        {/* <h6 className="card-category">Product Manager</h6> */}
                       </div>
                     </a>
                     <p className="card-description text-center">
@@ -177,7 +170,7 @@ function LandingPage() {
                       the money that you want without becoming very good at it.
                     </p>
                   </CardBody>
-                  <CardFooter className="text-center">
+                  {/* <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
@@ -202,7 +195,7 @@ function LandingPage() {
                     >
                       <i className="fa fa-linkedin" />
                     </Button>
-                  </CardFooter>
+                  </CardFooter> */}
                 </Card>
               </Col>
               <Col md="4">
@@ -211,15 +204,15 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/joe-gardner-2.jpg")}
+                        src={require("assets/img/toolbox.png")}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Sophie West</CardTitle>
-                        <h6 className="card-category">Designer</h6>
+                        <CardTitle tag="h4">Become a Creator</CardTitle>
+                        {/* <h6 className="card-category">Designer</h6> */}
                       </div>
                     </a>
                     <p className="card-description text-center">
@@ -229,7 +222,7 @@ function LandingPage() {
                       orchestra to play it.
                     </p>
                   </CardBody>
-                  <CardFooter className="text-center">
+                  {/* <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
@@ -254,7 +247,7 @@ function LandingPage() {
                     >
                       <i className="fa fa-linkedin" />
                     </Button>
-                  </CardFooter>
+                  </CardFooter> */}
                 </Card>
               </Col>
               <Col md="4">
@@ -263,15 +256,15 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/faces/erik-lucatero-2.jpg")}
+                        src={require("assets/img/donate.png")}
                       />
                     </a>
                   </div>
                   <CardBody>
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <div className="author">
-                        <CardTitle tag="h4">Robert Orben</CardTitle>
-                        <h6 className="card-category">Developer</h6>
+                        <CardTitle tag="h4">Support This Project</CardTitle>
+                        {/* <h6 className="card-category">Developer</h6> */}
                       </div>
                     </a>
                     <p className="card-description text-center">
@@ -281,7 +274,7 @@ function LandingPage() {
                       it’s deadly.
                     </p>
                   </CardBody>
-                  <CardFooter className="text-center">
+                  {/* <CardFooter className="text-center">
                     <Button
                       className="btn-just-icon btn-neutral"
                       color="link"
@@ -306,7 +299,7 @@ function LandingPage() {
                     >
                       <i className="fa fa-linkedin" />
                     </Button>
-                  </CardFooter>
+                  </CardFooter> */}
                 </Card>
               </Col>
             </Row>
@@ -316,7 +309,7 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Keep in touch?</h2>
+                <h2 className="text-center">Subscript to this project</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="6">

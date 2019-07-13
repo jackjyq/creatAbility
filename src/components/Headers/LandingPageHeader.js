@@ -53,11 +53,11 @@ function LandingPageHeader() {
         <div className="filter" />
         <Container>
           <div className="motto text-center">
-            <h1>Example page</h1>
-            <h3>Start designing your landing page here.</h3>
+            <h1>WheelCare2</h1>
+            <h3>Another well designed caring solution for both carers and those with mobility difficulties/elderlies are always connected.</h3>
             <br />
             <Button
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              href="https://www.youtube.com/watch?v=bxBuQUTF5Hg"
               className="btn-round mr-1"
               color="neutral"
               target="_blank"
@@ -66,9 +66,9 @@ function LandingPageHeader() {
               <i className="fa fa-play" />
               Watch video
             </Button>
-            <Button className="btn-round" color="neutral" type="button" outline>
-              Download
-            </Button>
+            {/* <Button className="btn-round" color="neutral" type="button" outline>
+              Donate
+            </Button> */}
           </div>
         </Container>
       </div>
