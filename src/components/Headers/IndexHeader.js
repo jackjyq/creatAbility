@@ -51,24 +51,24 @@ function IndexHeader() {
             </h2>
           </Container>
         </div>
-        <div
-          // className="moving-clouds"
-          // style={{
-          //   backgroundImage: "url(" + require("assets/img/clouds.png") + ")"
-          // }}
-        />
-        <h6 className="category category-absolute">
-          created by {" "}
+        {/* <div
+          className="moving-clouds"
+          style={{
+            backgroundImage: "url(" + require("assets/img/clouds.png") + ")"
+          }}
+        /> */}
+        {/* <h6 className="text-primary">
+          <span className="">created by {" "}</span>
           <a href="https://github.com/Jiangyiqun/creatAbility"
             target="_blank">
             teamA
-          </a>
+          </a> */}
             {/* <img
               alt="..."
               className="creative-tim-logo"
               src={require("assets/img/creative-tim-white-slim2.png")}
             /> */}
-        </h6>
+        {/* </h6> */}
       </div>
     </>
   );
