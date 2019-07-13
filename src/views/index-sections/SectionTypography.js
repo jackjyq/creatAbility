@@ -142,7 +142,7 @@ function SectionTypography() {
               <Col md="3" sm="6"> <Card>
                 <CardBody>
                   <h6>WheelCare2</h6>
-                  <p className="text-info">Jack Jiang</p>
+                  <p className="text-info">Jack</p>
                 </CardBody>
                   <a href="./projects/WheelCare2/"> <img
                     alt="..."
@@ -166,7 +166,7 @@ function SectionTypography() {
               <Col md="3" sm="6"> <Card>
                 <CardBody>
                   <h6>The ADA project</h6>
-                  <p className="text-info">Jenny Kwon</p>
+                  <p className="text-info">Jenny</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
@@ -189,7 +189,7 @@ function SectionTypography() {
               <Col md="3" sm="6"> <Card>
                 <CardBody>
                   <h6>Film project</h6>
-                  <p className="text-info">Jack Jiang</p>
+                  <p className="text-info">Eva</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
@@ -200,7 +200,7 @@ function SectionTypography() {
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/WheelCare2/face.jpg")}
+                      src={require("assets/img/WheelCare2/eva.jpg")}
                     />
                   </div></div>
                 <CardBody>
@@ -212,7 +212,7 @@ function SectionTypography() {
               <Col md="3" sm="6"> <Card>
                 <CardBody>
                   <h6>Ski Glove for Disabled</h6>
-                  <p className="text-info">Jenny Kwon</p>
+                  <p className="text-info">Ryan</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
@@ -223,7 +223,7 @@ function SectionTypography() {
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/WheelCare2/jenny.jpg")}
+                      src={require("assets/img/WheelCare2/ryan.jpg")}
                     />
                   </div></div>
                 <CardBody>
@@ -238,7 +238,7 @@ function SectionTypography() {
               <Col md="3" sm="6"> <Card>
                 <CardBody>
                   <h6>SUPPORTING DISABILITIES</h6>
-                  <p className="text-info">Jenny Kwon</p>
+                  <p className="text-info">Phoebe</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
@@ -249,7 +249,7 @@ function SectionTypography() {
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/WheelCare2/jenny.jpg")}
+                      src={require("assets/img/WheelCare2/jen.jpg")}
                     />
                   </div></div>
                 <CardBody>
@@ -262,7 +262,7 @@ function SectionTypography() {
               <Col md="3" sm="6"> <Card>
                 <CardBody>
                   <h6>Mullen’s Apple Sauce</h6>
-                  <p className="text-info">Jack Jiang</p>
+                  <p className="text-info">Jeremy</p>
                 </CardBody>
                   <a href="#"> <img
                     alt="..."
@@ -273,7 +273,7 @@ function SectionTypography() {
                     <img
                       alt="..."
                       className="img-circle img-no-padding img-responsive"
-                      src={require("assets/img/WheelCare2/face.jpg")}
+                      src={require("assets/img/WheelCare2/jeremy.jpeg")}
                     />
                   </div></div>
                 <CardBody>
