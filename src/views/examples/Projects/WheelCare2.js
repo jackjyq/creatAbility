@@ -78,12 +78,12 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-album-2" />
+                    <i className="nc-icon nc-single-02" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Lightweight Material</h4>
+                    <h4 className="info-title">Your Care, We Care</h4>
                     <p className="description">
-                      The wheelchair is made from durable Lightweight Aircraft Quality Aluminium that allows it to hold up a weight of 300 lbs (~136 kg) yet it is 54 lbs only (~24 kg, with battery)
+                    Imagine your parents or grandparents suffering from mobility difficulties, you may immediately come up with 2 things: (i) Wheelchair (ii) Carer.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -94,12 +94,14 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-bulb-63" />
+                    <i className="nc-icon nc-vector" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">embedded Power</h4>
+                    <h4 className="info-title">WheelCare includes:</h4>
                     <p>
-                      A Power Wheelchair embedded with an All-In-One Smart tracking system (BLE & GPS Tracking System)
+                    A Power Wheelchair embedded with a smart tracking system
+                    A smartwatch with health monitoring features. Can cheack heart rates
+
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -110,7 +112,7 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-chart-bar-32" />
+                    <i className="nc-icon nc-bold" />
                   </div>
                   <div className="description">
                     <h4 className="info-title">Bluetooth technology</h4>
@@ -126,13 +128,12 @@ function LandingPage() {
               <Col md="3">
                 <div className="info">
                   <div className="icon icon-info">
-                    <i className="nc-icon nc-sun-fog-29" />
+                    <i className="nc-icon nc-air-baloon" />
                   </div>
                   <div className="description">
-                    <h4 className="info-title">Delightful design</h4>
+                    <h4 className="info-title">Portability</h4>
                     <p>
-                      Find unique and handmade delightful designs related items
-                      directly from our sellers.
+                    It is foldable with size 95X62X34 cm^3 only, that can easily fit into the compartment of most of the vehicles and much more convenient for travelling.
                     </p>
                     <Button className="btn-link" color="info" href="#pablo">
                       See more
@@ -153,7 +154,7 @@ function LandingPage() {
                     <a href="#pablo" onClick={e => e.preventDefault()}>
                       <img
                         alt="..."
-                        src={require("assets/img/like.png")}
+                        src={require("assets/img/heart.jpg")}
                       />
                     </a>
                   </div>
@@ -165,9 +166,9 @@ function LandingPage() {
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      Teamwork is so important that it is virtually impossible
-                      for you to reach the heights of your capabilities or make
-                      the money that you want without becoming very good at it.
+                      Show your interest to a project by clicking like.
+                      As donators can see the likes, the greater number of the likes, 
+                      the greater possibility to get funded by people!
                     </p>
                   </CardBody>
                   {/* <CardFooter className="text-center">
@@ -216,10 +217,9 @@ function LandingPage() {
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      A group becomes a team when each member is sure enough of
-                      himself and his contribution to praise the skill of the
-                      others. No one can whistle a symphony. It takes an
-                      orchestra to play it.
+                      Help people who needs your skills! You can Contribute
+                      to any of the projects you are interested in. It will
+                      be a great experience as a teamwork.
                     </p>
                   </CardBody>
                   {/* <CardFooter className="text-center">
@@ -268,10 +268,9 @@ function LandingPage() {
                       </div>
                     </a>
                     <p className="card-description text-center">
-                      The strength of the team is each individual member. The
-                      strength of each member is the team. If you can laugh
-                      together, you can work together, silence isn’t golden,
-                      it’s deadly.
+                      We are looking for people who are willing to donate for
+                      projects! Your donations will be used to support the creators
+                      to build a project which fulfills the customer's needs. 
                     </p>
                   </CardBody>
                   {/* <CardFooter className="text-center">
@@ -309,7 +308,7 @@ function LandingPage() {
           <Container>
             <Row>
               <Col className="ml-auto mr-auto" md="8">
-                <h2 className="text-center">Subscript to this project</h2>
+                <h2 className="text-center">Subscribe to this project</h2>
                 <Form className="contact-form">
                   <Row>
                     <Col md="6">
